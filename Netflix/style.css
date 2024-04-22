@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.part1{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(background.jpg);
+    background-size: cover;
+    /* background-position: center center; */
+    /* background-color: black; */
+    /* opacity: 0.7; */
+}
+nav{
+    display: flex;
+    /* border: 2px solid black; */
+    height: 80px;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
+nav img{
+width: 147px;
+height: 40px;
+margin-left: 70px;
+}
+nav button{
+    width: 75px;
+    height: 32px;
+    margin-right: 70px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.promin{
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 18%;
+    /* color: white; */
+}
+.p2{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 38%;
+}
+.p3{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 57%;
+    left: 28%;
+}
+#inp{
+    color: white;
+    width: 374px;
+    height: 55px;
+    position: absolute;
+    top: 65%;
+    left: 32%;
+    padding-left: 12px;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.103);
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.gs{
+    height: 55px;
+    width: 170px;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    border-radius: 5px;
+background-color: red;
+color: white;
+font-size: 22px;
+border: none;
+}
+hr{
+    border: 4px solid #232323;
+}
+.part2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* border: 2px solid yellow; */
+    background-color: black;
+}
+.p2_1{
+    padding-left: 110px;
+    padding-top: 150px;
+    color: white;
+}
+.tvr{
+    font-size: 48px;
+    font-weight: bolder;  
+    margin-bottom: 10px;
+}
+.tvr_1{
+    font-size: 22px;
+    font-weight: bold;
+    width: 570px;
+    height: 65px;
+    /* border: 2px solid red; */
+}
+#tv{
+    width: 550px;
+    height: 400px;
+    /* z-index: 1; */
+}
+#vid{
+    width: 390px;
+    height: 260px;
+    margin-top: 100px;
+    margin-left: 110px;
+    
+}
+.part3{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* border: 2px solid yellow; */
+    background-color: black;
+    
+}
+#mob{
+    height: 300px;
+    width: 50%;
+}
+.part4{
+    width: 100%;
+    height: 70vh;
+    /* display: flex; */
+    /* border: 2px solid yellow; */
+    background-color: black; 
+}
+.part5{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    /* border: 2px solid yellow; */
+    background-color: black;
+}
+.p5_1{
+    height: 300px;
+    width: 50%;
+    /* margin-left:50px; */
+}
+/* #kids{
+    height: 300px;
+    width: 50%;
+} */
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+}
+#eng{
+    height: 36px;
+    width: 95px;
+    padding-left: 5px;
+    color: white;
+    background-color: black;
+}
+footer ul li a{
+    /* text-decoration: none; */
+    color: #747474;
+    font-size: 16px;
+    /* border: 2px solid red; */
+}
+footer ul li{
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* .lang{
+    border: 2px solid red;
+    width: 130px;
+    height: 36px;
+
+} */

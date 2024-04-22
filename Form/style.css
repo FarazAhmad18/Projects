@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    height: 5.3in;
+    width: 4.5in;
+    border-radius: 5%;
+      position: relative;
+    left: 35%;
+    top: 0.5in;
+    /* background-color: beige; */
+    box-shadow: 5px 5px 5px black;
+}
+.lgform{
+  height: 15%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  color: white;
+  outline: none;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  
+}
+.lgform p{
+    /* border: 2px solid red; */
+    padding-top: 20px;
+    padding-left: 35%;
+    font-size: 29px;
+    font-weight:bolder;
+}
+.inp{
+    display: block;
+    height: 50px;
+    width: 4in;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    outline: none;
+    text-align:start;
+    padding-left: 20px;
+    font-size: larger;
+    margin-left: 25px;
+}
+#check{
+    display: inline;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+#an{
+    color: blue;
+    text-decoration: none;
+}
+.btn{
+    height: 50px;
+    width: 4in;
+    margin-top: 25px;
+    border-radius: 25px;
+     border: 1px solid lightgray;
+    outline: none; 
+    text-align:start;
+text-align: center;
+    font-size: larger;
+    margin-left: 25px; 
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+
+}
+.p2{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.p2 a{
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+font-family: "Roboto", sans-serif;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color:#270082;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    position: sticky;
+    box-shadow: 5px 5px 5px black;
+}
+.logo{
+    font-weight: 500;
+    /* border: 2px solid yellow; */
+    width: 1.5in;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.icons ul{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid yellow; */
+    width: 6in;
+    /* height: 40px; */
+}
+.icons ul li{
+    list-style: none;
+
+}
+.icons ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:large;
+    font-weight:400;
+}
+.icons ul li a:hover{
+    text-decoration: underline;
+}
+.p2{
+    height: 8in;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    background-image: url(hero_image.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+}
+.con{
+    height: 5px;
+    width: 100%;
+    /* border: 2px solid pink; */
+    color: white;
+    padding-top: 2in;
+}
+#p1{
+    font-size: 1.4in;
+    font-weight: 3px;
+/* border: 2px solid white; */
+text-align: center;
+}
+#p2{
+    font-size: 0.5in;
+    text-align: center;
+    font-weight: 1px;
+    /* border: 2px solid orange; */
+    margin-top: 0.2in;
+}
+#p3{
+    font-size: 0.15in;
+    text-align: center;
+    font-weight: 1px;
+    /* border: 2px solid orange; */
+    width: 13in;
+    margin-left: 70px;
+    margin-top: 0.2in;
+}
+
+.p3{
+    height: 6.5in;
+    width: 100%;
+    /* border: 2px solid pink; */
+    background-color: #281154;
+    color: white;
+    padding-top: 20px;
+}
+#p2_1{
+    font-size: 0.5in;
+    text-align: center;
+    font-weight: 5px;
+    /* border: 2px solid orange; */
+    margin-top: 0.2in;
+}
+.p2_2{
+    font-size: 0.2in;
+    text-align: center;
+    font-weight: 3px;
+    /* border: 2px solid red; */
+    margin-top: 0.2in;
+    padding: 20px;
+}
+button{
+    background-color:#dc0000;
+    width: 1.5in;
+    height: 0.4in;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 45.5%;
+}
+
+.p2_3{
+    font-size: 0.15in;
+    text-align: center;
+    font-weight: 3px;
+    /* border: 2px solid red; */
+    margin-top: 0.2in;
+    padding: 20px;
+}
+.ipad{
+    margin-left: 2.3in;
+}

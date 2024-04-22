@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hea{
+    font-size: 7vmin;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #3DCEEE;
+    text-align: center;
+    overflow-y: hidden
+}
+.container{
+    height: 63vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid black; */
+    align-items: center;
+    gap: 1vmin;
+    }
+.box{
+    width: 18vmin;
+    height: 18vmin;
+    border-radius: 2vmin;
+    border: none;
+    font-size: 7vmin;
+    color:#6CB4AF;
+    background-color: azure;
+}
+.reset{
+    margin: 1px;
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: azure;
+    border: none;
+    border-radius: 1rem;
+}
+.msg{
+    font-size: 7vmin;
+}
+#newbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: azure;
+    border: none;
+    border-radius: 1rem;
+}
+.hide{
+    display: none;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #548687;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+  }
+  
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  } */
